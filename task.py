@@ -48,6 +48,7 @@ Rewrite_sort_list_in_file(list_of_numbers)
 # 3.	Вот вам файл с тысячей чисел. https://cloud.mail.ru/public/DQgN/LqoQzPEec
 # Задача: найти триплеты и просто выводить их на экран. Триплетом называются три числа, которые в сумме дают 0.
 # (решение будет долгим, ибо является демонстрационным при теме многопоточного программирования).
+'''
 def make_list():
     with open('1Kints.txt', 'r') as data:
         list_nummbers = list(map(int, data.read().split()))
@@ -72,3 +73,4 @@ print(find_triplets(list_nummbers, n))
 # print(list_nummbers)
 # # print(type(list_nummbers))
 # # print(type(list_nummbers[100]))
+'''
